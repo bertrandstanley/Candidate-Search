@@ -1,0 +1,160 @@
+/* Global Styles */
+body {
+    background: linear-gradient(to bottom, #0b0f55, #020924); /* Background gradient */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for Content */
+.container {
+    margin: 40px auto; /* Centering the container */
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 80px; /* Space from the top */
+    margin-bottom: 30px; /* Space below the title */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove spacing between borders */
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #444; /* Border around cells */
+    padding: 15px;
+    text-align: center; 
+    color: white;
+    vertical-align: middle;
+}
+
+th {
+    background-color: black;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+/* Image Styling */
+.image-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-cell img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+/* Links Inside Table */
+td a {
+    color: #4a90e2;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+/* Hover Effect for Links */
+td a:hover {
+    text-decoration: underline;
+}
+
+/* Button Styling */
+td button {
+    background-color: red;
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%; /* Circular button */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0 auto; /* Center the button */
+}
+
+#button::before {
+    content: "−"; 
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Filters and Sorting Section */
+.filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between filter and sort */
+    margin-bottom: 20px;
+}
+
+/* Input for Location Filter */
+.filter-input {
+    padding: 8px 12px;
+    border: 2px solid #4a90e2;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+    font-size: 1rem;
+    width: 200px;
+    transition: all 0.3s ease;
+}
+
+/* Focus State for Filter Input */
+.filter-input:focus {
+    border-color: #00bcd4;
+    outline: none;
+}
+
+/* Sort Dropdown */
+.sort-select {
+    padding: 8px 12px;
+    border: 2px solid #4a90e2;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Focus State for Sort Dropdown */
+.sort-select:focus {
+    border-color: #00bcd4;
+    outline: none;
+}
+
+/* Add hover effect to sort dropdown */
+.sort-select:hover, .filter-input:hover {
+    border-color: #00bcd4;
+}
+
+/* Title Inside Filter Section */
+.filters input,
+.filters select {
+    font-family: Arial, sans-serif;
+}
+
+/* Style for mobile devices */
+@media (max-width: 600px) {
+    .filters {
+        flex-direction: column;
+    }
+
+    .filter-input, .sort-select {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
