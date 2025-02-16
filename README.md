@@ -17,7 +17,7 @@ This is a deployed website that does not require any installation to be viewed.
 ## Usage
 Once you open the website, on the Home page, click the - button to search and the + button to save the potential candidates you like. You can view a candidate's profile by clicking on their image or name/username. 
 
-On the potential candidate page, click the candidate's image or name/username to view their profile, and click the [-] button to remove them from the potential list. You can also filter candidates by location and sort them by name and location.
+On the potential candidate page, click the candidate's image or name/username to view their profile, and click the [-](#) button to remove them from the potential list. You can also filter candidates by location and sort them by name and location.
 
 ## License
 
