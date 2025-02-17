@@ -7,6 +7,8 @@ Candidate Search is a web application that helps users discover and save potenti
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
+- [Mock-Up](#mock-up)
+- [Deployed URL](#deployed-url)
 - [License](#license)
 - [Contributing](#contributing)
 - [Questions](#questions)
@@ -18,6 +20,17 @@ This is a deployed website that does not require any installation to be viewed.
 Once you open the website, on the Home page, click the - button to search and the + button to save the potential candidates you like. You can view a candidate's profile by clicking on their image or name/username. 
 
 On the potential candidate page, click the candidate's image or name/username to view their profile, and click the - button to remove them from the potential list. You can also filter candidates by location and sort them by name and location.
+
+## Mock-Up
+The following images show the web application's appearance and functionality:
+
+<img width="1656" alt="Candidate Search Homepage" src="https://github.com/user-attachments/assets/0c895c26-605c-43d4-ad78-e0c0a5d1753b" />
+
+<img width="1658" alt="Potential Candidate Page" src="https://github.com/user-attachments/assets/b8cbfd9e-0ba3-4ea9-ba77-bce76de8ce54" />
+
+## Deployed URL
+
+[Click Here](https://candidate-search-deployed.onrender.com) to view the live version of the app. 
 
 ## License
 
